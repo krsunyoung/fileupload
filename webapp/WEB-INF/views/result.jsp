@@ -12,9 +12,9 @@
 	<h1>Upload completed</h1>
 
 	<div class="result-images">
-		<c:if test="${not empty productImageUrl1 }">
-			<img src="/fileupload${productImageUrl1 }" style="width:150px"><br>
-		</c:if>
+	<!--  	<c:if test="${not empty url1 }"> -->
+			<img src="${pageContext.request.contextPath }/${url1 }" style="width:150px"><br>
+	<!--  	</c:if> -->
 	</div>
 
 	<p>
